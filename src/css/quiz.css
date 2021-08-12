@@ -58,7 +58,7 @@ header {
 }
 
 label {
-    margin: 1rem;
+    margin:  1rem 1rem 1rem 0rem;
 }
 
 button {
@@ -69,8 +69,7 @@ button {
     border-radius: 1rem;
     width: 50%;
     padding:.5rem;
-    margin: 0rem auto;
-    
+    margin: 2rem auto;
 }
 
 .quiz-btn {
@@ -81,9 +80,18 @@ button {
 
 .quiz-result {
     color: var(--offwhite);
-    font-size: 2rem;
-    margin: auto;
-    margin-top:2rem;
+    font-size: 2.2rem;
     text-align: center;
-    
+    margin: 50px auto;
+    border: 9px double var(--primary-color);
+    padding: 15px;
+    width: 35%;
+}
+
+.hide {
+    display: none;
+}
+
+.display {
+    display: block;
 }
