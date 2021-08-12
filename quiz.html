@@ -1,189 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quiz</title>
-    <link rel="stylesheet" href="./src/css/quiz.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>quiz</title>
+	<link rel="stylesheet" href="./src/css/quiz.css">
 </head>
+
 <body>
-    <navbar>
-        <ul>
-            <li><a class="item-active" href="index.html">Is Triangle ?</a></li>
-            <li><a href="quiz.html">Quiz</a></li>
-            <li><a href="hypotenuse.html">Hypotenuse</a></li>
-            <li><a href="area.html">Area</a></li>
-        </ul>
-    </navbar>
+	<navbar>
+		<ul>
+			<li><a class="item-active" href="index.html">Is Triangle ?</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="hypotenuse.html">Hypotenuse</a></li>
+			<li><a href="area.html">Area</a></li>
+		</ul>
+	</navbar>
 
-    <main>
-        <div class="container">
-            <header>Triangle Quiz</header>
-            <form class="form">
-            <div class="quiz-container">
-                <p>What is the third angle for the triangle where angle1 = 90° and angle2 = 45°?</p>
-                <label>
-					<input type="radio" value="45°" name="question1">
-					45°
-				</label>
-                <label>
-					<input type="radio" value="60°" name="question1">
-					60°
-				</label>
-                <label>
-					<input type="radio" value="90°" name="question1">
-					90°
-				</label>
-            </div>
+	<main>
+		<div class="container">
+			<header>Triangle Quiz</header>
+			<form class="form">
+				<div class="quiz-container">
+					<p>What is the third angle for the triangle where angle1 = 90° and angle2 = 45°?</p>
+					<label>
+						<input type="radio" required="" value="45°" name="question1">
+						45°
+					</label>
+					<label>
+						<input type="radio" required="" value="60°" name="question1">
+						60°
+					</label>
+					<label>
+						<input type="radio" required="" value="90°" name="question1">
+						90°
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>An angle whose measure is exactly 90 degrees.</p>
-                <label>
-					<input type="radio" value="obtuse" name="question2">
-                    obtuse
-				</label>
-                <label>
-					<input type="radio" value="right" name="question2">
-					right
-				</label>
-                <label>
-					<input type="radio" value="acute" name="question2">
-					acute
-				</label>
-            </div>
-  
-            <div class="quiz-container">
-                <p>What is an "Acute" Angle?</p>
-                <label>
-					<input type="radio" value="An angle that measures more than 90°" name="question3">
-					An angle that measures more than 90°
-				</label>
-                <label>
-					<input type="radio" value="An Angle that measures 90°" name="question3">
-					An Angle that measures 90°
-				</label>
-                <label>
-					<input type="radio" value="An angle that measures less than 90°" name="question3">
-					An angle that measures less than 90°
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>An angle whose measure is exactly 90 degrees.</p>
+					<label>
+						<input type="radio" value="obtuse" name="question2">
+						obtuse
+					</label>
+					<label>
+						<input type="radio" value="right" name="question2">
+						right
+					</label>
+					<label>
+						<input type="radio" value="acute" name="question2">
+						acute
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
-                <label>
-					<input type="radio"  value="15cm" name="question4">
-					15cm
-				</label>
-                <label>
-					<input type="radio" value="45cm" name="question4">
-					45cm
-				</label>
-                <label>
-					<input type="radio" value="5cm" name="question4">
-					5cm
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>What is an "Acute" Angle?</p>
+					<label>
+						<input type="radio" value="An angle that measures more than 90°" name="question3">
+						An angle that measures more than 90°
+					</label>
+					<label>
+						<input type="radio" value="An Angle that measures 90°" name="question3">
+						An Angle that measures 90°
+					</label>
+					<label>
+						<input type="radio" value="An angle that measures less than 90°" name="question3">
+						An angle that measures less than 90°
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>If a triangle has 2 sides with equal lengths and 75° angle between them. What is the type of triangle?</p>
-                <label>
-					<input type="radio" value="Equilateral" name="question5">
-					Equilateral
-				</label>
-                <label>
-					<input type="radio" value="Isosceles" name="question5">
-					Isosceles
-				</label>
-                <label>
-					<input type="radio" value="Right Angle traingle" name="question5">
-					Right Angle traingle
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
+					<label>
+						<input type="radio" value="15cm" name="question4">
+						15cm
+					</label>
+					<label>
+						<input type="radio" value="45cm" name="question4">
+						45cm
+					</label>
+					<label>
+						<input type="radio" value="5cm" name="question4">
+						5cm
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>If a triangle has 2 angles of 75°. What is the measure of third angle in degree?</p>
-                <label>
-					<input type="radio" value="25°" name="question6">
-					25°
-				</label>
-                <label>
-					<input type="radio" value="30°" name="question6">
-					30°
-				</label>
-                <label>
-					<input type="radio" value="15°" name="question6">
-					15°
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>If a triangle has 2 sides with equal lengths and 75° angle between them. What is the type of
+						triangle?</p>
+					<label>
+						<input type="radio" value="Equilateral" name="question5">
+						Equilateral
+					</label>
+					<label>
+						<input type="radio" value="Isosceles" name="question5">
+						Isosceles
+					</label>
+					<label>
+						<input type="radio" value="Right Angle traingle" name="question5">
+						Right Angle traingle
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>If the height of a triangle is 7cm and base length is equal to 10 cm, then find its area.</p> 
-                <label>
-					<input type="radio" value="25 sq cm" name="question7">
-					25 sq cm
-				</label>
-                <label>
-					<input type="radio" value="30 sq cm" name="question7">
-					30 sq cm
-				</label>
-                <label>
-					<input type="radio" value="35 sq cm" name="question7">
-					35 sq cm
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>If a triangle has 2 angles of 75°. What is the measure of third angle in degree?</p>
+					<label>
+						<input type="radio" value="25°" name="question6">
+						25°
+					</label>
+					<label>
+						<input type="radio" value="30°" name="question6">
+						30°
+					</label>
+					<label>
+						<input type="radio" value="15°" name="question6">
+						15°
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>If a triangle has angles 25°, 75°, 80°. Is it an acute triangle?</p>
-                <label>
-					<input type="radio" value="Yes" name="question8">
-					Yes
-				</label>
-                <label>
-					<input type="radio"value="No" name="question8">
-					No
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>If the height of a triangle is 7cm and base length is equal to 10 cm, then find its area.</p>
+					<label>
+						<input type="radio" value="25 sq cm" name="question7">
+						25 sq cm
+					</label>
+					<label>
+						<input type="radio" value="30 sq cm" name="question7">
+						30 sq cm
+					</label>
+					<label>
+						<input type="radio" value="35 sq cm" name="question7">
+						35 sq cm
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>The side length of an equilateral triangle is 12cm. Find its area.</p>
-                <label>
-					<input type="radio"  value="42.35" name="question9">
-					42.35
-				</label>
-                <label>
-					<input type="radio" value="52.35" name="question9">
-					52.35
-				</label>
-                <label>
-					<input type="radio" value="62.35" name="question9">
-					62.35
-				</label>
-            </div>
+				<div class="quiz-container">
+					<p>If a triangle has angles 25°, 75°, 80°. Is it an acute triangle?</p>
+					<label>
+						<input type="radio" value="Yes" name="question8">
+						Yes
+					</label>
+					<label>
+						<input type="radio" value="No" name="question8">
+						No
+					</label>
+				</div>
 
-            <div class="quiz-container">
-                <p>If in a right triangle, the base is 4cm and hypotenuse equal to 5cm, then find the length of its perpendicular.</p>
-                <label>
-					<input type="radio" value="2 cm" name="question10">
-					2 cm
-				</label>
-                <label>
-					<input type="radio" value="3 cm" name="question10">
-					3 cm
-				</label>
-                <label>
-					<input type="radio" value="4 cm" name="question10">
-					4 cm
-				</label>
-            </div>
-		</form>
-            <button type="submit" class="quiz-btn">Your Score</button>
-            
-           
-        <div class="quiz-result hide"></div>
-        </div>
-    </main>
+				<div class="quiz-container">
+					<p>The side length of an equilateral triangle is 12cm. Find its area.</p>
+					<label>
+						<input type="radio" value="42.35" name="question9">
+						42.35
+					</label>
+					<label>
+						<input type="radio" value="52.35" name="question9">
+						52.35
+					</label>
+					<label>
+						<input type="radio" value="62.35" name="question9">
+						62.35
+					</label>
+				</div>
 
-<script src="/src/js/quiz.js"></script>
+				<div class="quiz-container">
+					<p>If in a right triangle, the base is 4cm and hypotenuse equal to 5cm, then find the length of its
+						perpendicular.</p>
+					<label>
+						<input type="radio" value="2 cm" name="question10">
+						2 cm
+					</label>
+					<label>
+						<input type="radio" value="3 cm" name="question10">
+						3 cm
+					</label>
+					<label>
+						<input type="radio" value="4 cm" name="question10">
+						4 cm
+					</label>
+				</div>
+			</form>
+			<button type="submit" class="quiz-btn">Your Score</button>
+
+
+			<div class="quiz-result">Result will be dispalyed here</div>
+		</div>
+	</main>
+
+	<script src="/src/js/quiz.js"></script>
 </body>
+
 </html>

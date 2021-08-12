@@ -76,6 +76,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .quiz-result {
@@ -94,4 +95,9 @@ button {
 
 .display {
     display: block;
+}
+
+.red-alert {
+    background-color: red;
+    border: 5px solid var(--offwhite);
 }
