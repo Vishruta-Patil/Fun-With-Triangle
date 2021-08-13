@@ -10,7 +10,7 @@ function hypotenuseHandler() {
     else {
         var a = Number(side1.value), b = Number(side2.value)
         var hypotenuseFormula = Math.sqrt((Math.pow(a,2)) + (Math.pow(b,2)))
-        hypotenuseResult.innerText = "The length of Hypotenuse is " + hypotenuseFormula + " cm";
+        hypotenuseResult.innerText = "The length of Hypotenuse is " + hypotenuseFormula.toFixed(3) + " cm";
     }
 }
 

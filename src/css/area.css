@@ -11,6 +11,7 @@
 
 body {
     background-color: var(--secondary-color);
+    font-family: 'Poppins', 'sans-seif';
 }
 
 navbar ul {
@@ -92,4 +93,24 @@ button {
     margin: auto;
     margin-top:2rem;
     text-align: center;  
+}
+
+@media only screen and (max-width:700px) {
+    .area-formula{
+        font-size: 1.3rem;
+        width: 75%;
+    }
+    
+    .area-result {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    navbar ul li a {
+        font-size: 18px;
+    }
+    navbar ul li {
+        margin: 16px 10px;
+    }
 }

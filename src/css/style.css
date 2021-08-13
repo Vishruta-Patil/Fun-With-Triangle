@@ -84,3 +84,17 @@ button {
     text-align: center;
     
 }
+
+
+@media only screen and (max-width:500px) {
+    navbar ul li a {
+        font-size: 18px;
+    }
+    navbar ul li {
+        margin: 16px 10px;
+    }
+
+    .is-Triangle-Result {
+        font-size: 1.6rem;
+    }
+}
